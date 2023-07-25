@@ -6,7 +6,8 @@ LinkedListModule is a Python module that provides efficient functions for workin
 
 Initialise a node of linked list:
 ```python
-head = ListNode(0) # Creates a node with value 0 and next node NULL
+head = ListNode(0) 
+# Creates a node with value 0 and next node NULL
 ```
 
 ## Functions

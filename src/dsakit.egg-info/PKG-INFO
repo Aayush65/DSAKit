@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: dsakit
-Version: 2.0.0
+Version: 2.0.1
 Summary: A package aimed at providing various data structures and their functions to solve dsa problems
 Author-email: Aayush65 <cdtaayushgupta@gmail.com>
 Project-URL: Homepage, https://github.com/Aayush65/DSAKit
@@ -66,4 +66,4 @@ from UnionFind import *
 
 ## License
 
-DSA Kit is open-source software released under the (MIT License)[]. Feel free to use it in your projects.
+DSA Kit is open-source software released under the [MIT License](https://github.com/Aayush65/DSAKit/blob/main/LICENSE). Feel free to use it in your projects.

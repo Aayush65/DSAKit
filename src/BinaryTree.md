@@ -6,7 +6,8 @@ BinaryTreeModule is a Python module that provides efficient functions for workin
 
 Initialise a node of linked list:
 ```python
-node = TreeNode(0, TreeNode(1), TreeNode(2)) # Creates a node with value 0, with 1 and 2 as left and right nodes respectively
+node = TreeNode(0, TreeNode(1), TreeNode(2)) 
+# Creates a node with value 0, with 1 and 2 as left and right nodes respectively
 ```
 
 ## Functions

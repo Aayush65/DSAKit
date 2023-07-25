@@ -52,4 +52,4 @@ from UnionFind import *
 
 ## License
 
-DSA Kit is open-source software released under the (MIT License)[https://github.com/Aayush65/DSAKit/blob/main/LICENSE]. Feel free to use it in your projects.
+DSA Kit is open-source software released under the [MIT License](https://github.com/Aayush65/DSAKit/blob/main/LICENSE). Feel free to use it in your projects.
