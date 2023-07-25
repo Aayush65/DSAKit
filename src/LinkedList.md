@@ -9,7 +9,6 @@ Initialise a node of linked list:
 head = ListNode(0) # Creates a node with value 0 and next node NULL
 ```
 
-
 ## Functions
 
 1. `listToLink(lst)`
@@ -78,6 +77,8 @@ head = ListNode(0) # Creates a node with value 0 and next node NULL
     - Prints the linked list using the given head node.
     - Time Complexity: O(n)
     - Space Complexity: O(1)
+
+
 
 ## Example
 

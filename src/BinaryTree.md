@@ -51,11 +51,25 @@ node = TreeNode(0, TreeNode(1), TreeNode(2)) # Creates a node with value 0, with
    - Time Complexity: O(n)
    - Space Complexity: O(h) where h is the height of the binary tree.
 
-## Example
+## Usage
+
+1. Import the `dsakit` from pip using:
 
 ```python
-from BinaryTreeModule import *
+pip install dsakit
+```
 
+2. Import class/functions from BinaryTree as needed:
+
+```python
+from BinaryTree import *
+```
+
+## Example
+
+1. Creating a Binary Tree:
+
+```python
 # Example Binary Tree
 #       1
 #      / \
@@ -67,36 +81,33 @@ bt.left = TreeNode(2)
 bt.right = TreeNode(3)
 bt.left.left = TreeNode(4)
 bt.left.right = TreeNode(5)
+```
 
+2. The same Binary tree can also be created using its level order traversal values:
 
+```python
+bt2 = bfsToTreeNode([1,2,3,4,5])
+```
 
-# Print Binary Tree nodes' values
-nodePrint(bt)  # Output: [1, 2, 3, 4, 5]
+3. We can check whether both the trees are identical or not
+```python
+print(isSameTree(bt, bt2))
+```
 
-# Get the maximum depth of the binary tree
-depth = maxDepth(bt)
-print(depth)  # Output: 3
+4.  Store the values of the Binary Tree as an array of nodes based on different traversal techniques
 
-# Get the nodes of the binary tree in inorder traversal
-inorder = bt.inorderTraversal()
-nodePrint(inorder)  # Output: [4, 2, 5, 1, 3]
+```python
+levelOT = bfsTraversal(bt)
+iOT = bt.inorderTraversal()
+preOT = bt.preorderTraversal()
+postOT = bt.postorderTraversal()
+nodePrint(levelOT)  # [1, 2, 3, 4, 5]
+nodePrint(iOT)  # [4, 2, 5, 1, 3]
+nodePrint(preOT)  # [1, 2, 4, 5, 3]
+nodePrint(postOT)  # [4, 5, 2, 3, 1]
+```
 
-# Get the nodes of the binary tree in preorder traversal
-preorder = bt.preorderTraversal()
-nodePrint(preorder)  # Output: [1, 2, 4, 5, 3]
-
-# Get the nodes of the binary tree in postorder traversal
-postorder = bt.postorderTraversal()
-nodePrint(postorder)  # Output: [4, 5, 2, 3, 1]
-
-# Get the nodes of the binary tree in level order traversal (BFS)
-bfs = bfsTraversal(bt)
-nodePrint(bfs)  # Output: [1, 2, 3, 4, 5]
-
-# Convert a BFS array back to a Binary Tree
-bfs = [1, 2, 3, 4, None, None, 5]
-root = bfsToTreeNode(bfs)
-
-# Check if two Binary Trees are congruent
-congruent = isSameTree(bt, root)
-print(congruent)  # Output: False
+5. Get the maximum depth of the binary tree
+```python
+print(bt.maxDepth())  # 3
+```
