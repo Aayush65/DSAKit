@@ -13,10 +13,10 @@ DSA Kit is a comprehensive collection of Python modules that implement various d
 
 ## Table of Contents
 
-1. [Linked List](src/linkedList.md)
-2. [Binary Trees](src/BinaryTree.md)
-3. [Tries](src/Trie.md)
-4. [UnionFind](src/UnionFind.md)
+1. [Linked List](./src/linkedList.md)
+2. [Binary Trees](./src/BinaryTree.md)
+3. [Tries](./src/Trie.md)
+4. [UnionFind](./src/UnionFind.md)
 4. [HashSet](src/HashSet.md)
 5. [HashMap](src/HashMap.md)
 6. [Circular Deque](src/CircularDeque.md)
