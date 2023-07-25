@@ -55,8 +55,12 @@ node = TreeNode(0, TreeNode(1), TreeNode(2)) # Creates a node with value 0, with
 
 1. Import the `dsakit` from pip using:
 
-```python
+```bash
 pip install dsakit
+```
+OR
+```bash
+pip3 install dsakit
 ```
 
 2. Import class/functions from BinaryTree as needed:

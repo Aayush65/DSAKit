@@ -78,7 +78,23 @@ head = ListNode(0) # Creates a node with value 0 and next node NULL
     - Time Complexity: O(n)
     - Space Complexity: O(1)
 
+## Usage
 
+1. Import the `dsakit` from pip using:
+
+```bash
+pip install dsakit
+```
+OR
+```bash
+pip3 install dsakit
+```
+
+2. Import class/functions from LinkedList as needed:
+
+```python
+from LinkedList import *
+```
 
 ## Example
 

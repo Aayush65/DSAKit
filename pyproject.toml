@@ -1,11 +1,10 @@
 [project]
 name = "dsakit"
-version = "1.0.0"
+version = "2.0.0"
 authors = [
   { name="Aayush65", email="cdtaayushgupta@gmail.com" },
 ]
 description = "A package aimed at providing various data structures and their functions to solve dsa problems"
-long_description = "DSA Kit is a comprehensive collection of Python modules that implement various data structures and algorithms from scratch. The primary goal of this project is to provide efficient and well-optimized implementations of fundamental data structures and algorithms."
 readme = "README.md"
 requires-python = ">=3.7"
 classifiers = [
@@ -15,7 +14,7 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Aayush65/DSAKit/"
+"Homepage" = "https://github.com/Aayush65/DSAKit"
 "Bug Tracker" = "https://github.com/Aayush65/DSAKit/issues"
 
 [build-system]
